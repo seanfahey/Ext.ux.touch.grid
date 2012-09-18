@@ -1,6 +1,6 @@
 Ext.define('Grid.view.Grid', {
-    extend : 'Ext.ux.touch.grid.View',
-    xtype  : 'grid-grid',
+    extend : 'Ext.ux.touch.grid.List',
+    alias : 'widget.grid-grid',
 
     requires : [
         'Ext.ux.touch.grid.feature.Feature',
